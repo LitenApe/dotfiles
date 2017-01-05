@@ -24,7 +24,7 @@ alias z='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
 #Compact path
-PS1="\033[92m\W~> \033[0m"
+PS1="\[\033[92m\]\W~> \[\033[0m\]"
 
 #python 3
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
