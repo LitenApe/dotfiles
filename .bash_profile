@@ -11,6 +11,8 @@ alias ls="ls -agGF"
 # restart wifi on macOS
 alias rw="bash /Users/litenape/.wifiRestart.sh"
 
+alias p="python3"
+
 #initiate fasd
 eval "$(fasd --init auto)"
 #alias for fasd
